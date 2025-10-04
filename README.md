@@ -6,7 +6,10 @@ A React-based web application to **browse movies**, search by title, and manage 
 
 ## 🔗 Live Demo
 
-[Deployed Netlify link here](https://candid-torte-f38fc7.netlify.app/)]
+<a href="https://candid-torte-f38fc7.netlify.app/" target="_blank" rel="noopener noreferrer">
+  Deployed Netlify link here
+</a>
+
 
 ---
 
