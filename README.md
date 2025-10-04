@@ -84,6 +84,7 @@ Navigate to the Watchlist page and verify persistence.
 - Responsive grid layout to show 4 cards per row on desktop.
 
 ## Folder Structure
+```bash
 movie-library/
 │
 ├─ public/
@@ -97,3 +98,4 @@ movie-library/
 ├─ .env
 ├─ package.json
 └─ vite.config.js
+```
