@@ -1,0 +1,87 @@
+.card {
+  background: #1e1e1e;
+  color: #f1f1f1;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  width: 220px; /* increased width from 200px to 220px */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8);
+}
+
+.poster {
+  width: 100%;
+  height: 320px; /* slightly taller to match new width */
+  object-fit: cover;
+  display: block;
+}
+
+.title {
+  margin: 0.5rem 0 0 0;
+  font-size: 1rem;
+  font-weight: 600;
+  min-height: 2.5em; /* ensures uniform height for titles */
+}
+
+.year {
+  margin: 0.2rem 0 0.5rem 0;
+  color: #61dafb;
+  font-size: 0.9rem;
+}
+
+.button,
+.buttonRemove,
+.buttonAdded {
+  width: calc(100% - 20px);
+  margin: 0.5rem auto 1rem auto;
+  padding: 0.5rem 0;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+/* Add to Watchlist button */
+.button {
+  background: #61dafb;
+  color: #1e1e1e;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #21a1f1;
+}
+
+/* Button when movie is already added */
+.buttonAdded {
+  background: #28a745;
+  color: #fff;
+  cursor: not-allowed;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+/* Remove button for Watchlist */
+.buttonRemove {
+  background: #ff6464;
+  color: #fff;
+  cursor: pointer;
+}
+
+.buttonRemove:hover {
+  background: #e63946;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
